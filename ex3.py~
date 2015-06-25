@@ -1,0 +1,47 @@
+cars = 100
+#100 cars
+
+space_in_a_car = 4
+#4 each individual spaces per car.
+
+drivers = 30
+#30 drivers
+
+passengers = 90
+#90 passengers
+
+cars_not_driven = cars - drivers
+#cars(100) - drivers(30) = 70 cars not driven.
+
+cars_driven = drivers
+#Drivers is linked to cars_driven.
+
+carpool_capacity = cars_driven * space_in_a_car
+#cars_driven(30) * space_in_a_car(4.0) = 120
+
+average_passengers_per_car = passengers / cars_driven
+#passengers (90) / cars_driven (30) = 3.
+
+print "There are", cars, "cars available."
+#Displays 100 cars.
+print "There are only", drivers, "drivers available."
+#Displays 30 drivers.
+print "There will be", cars_not_driven, "empty cars today."
+#Displays 30 unused cars.
+print "We can transport", carpool_capacity, "people today."
+#Displays 120 passenger spaces.
+print "We have", passengers, "to carpool today."
+#Displays 90 passengers.
+print "We need to put about", average_passengers_per_car, "in each car."
+#Displays average_passengers_per_car.
+
+print "Simple calculator."
+numb1 = int(raw_input("Pick a number: "))
+numb2 = int(raw_input("Pick another number: "))
+
+total_amount = numb1 * numb2
+
+print "The answer is: ", total_amount
+
+
+
