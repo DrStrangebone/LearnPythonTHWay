@@ -1,0 +1,18 @@
+formatter = "%r %r %r %r"
+#4 formatters.
+
+print formatter % (1, 2, 3, 4)
+#int attached to formatters.
+print formatter % ("one", "two", "three", "four")
+#strings attached to formatters - by word.
+print formatter % (True, False, True, False)
+#Boolean attached to formatters. 
+print formatter % (formatter, formatter, formatter, formatter)
+#Formatter iteration, NOT by % but by literal 'formatter' atatched by %.
+print formatter % (
+    "I had this thing.",
+    "That you could type up right.",
+    "But it didn't sing.",
+    "So I said goodnight."
+)
+#4 % = 4 lines = small poem.
