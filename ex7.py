@@ -1,9 +1,12 @@
 print "Mary had a little lamb."
 #Obvious print.
 print "Its fleece was white as %s." % 'snow'
-# '%s' links to snow. 
+# '%s' links to snow. 'snow' is NOT a variable.
+# A variable wouldn't have the single-quotes around it.
+
 print "And everywhere that Mary went."
 #Obvious print.
+
 print "." * 10 #What'd it do?
 #It printed out 10 dots, . * 10 = ..........
 
