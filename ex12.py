@@ -10,4 +10,5 @@ weight = raw_input("How much do you weigh? ")
 print "So your name is %r, %r years-old, %r tall and %r heavy." % (
     name, age, height, weight)
     
-    
+#%r IS FOR DEBUGGING AND IS 'RAW REPRESENTATION' WHILE %s IS FOR DISPLAY.
+#REMEMBER THIS!!!!
