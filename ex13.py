@@ -1,0 +1,25 @@
+#You know how you type python ex13.py to run the file? 
+#Well the '13.py'part of the command is called 'argument'.
+
+from sys import argv
+#argv is 'argument variable'. 
+
+script, first, second, third, result1 = argv
+#This line 'unpacks' argv. It gets assigned to four variables.
+fourth = raw_input("What is your fourth variable? ")
+
+print "Altogether, \nyour script is called %r, \nyour first variable is called %r,\nyour second variable is %r, \nyour third variable is %r \nand your fourth is %r." % (script, first, second, third, fourth)
+
+print "The script is called: ", script
+#How did Python retrieve name of file without having to mention it?
+
+print "Your first variable is: ", first
+#input from terminal
+print "Your second variable is: ", second
+#input from terminal
+print "Your third variable is: ", third 
+#input from terminal
+
+#I do not understand - how did it grab the file name? 
+#'from sys import argv' - to my understanding,
+#that means 'from system import arguments'. Nothing about file names?
