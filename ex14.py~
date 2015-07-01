@@ -1,11 +1,12 @@
 from sys import argv
 #import argument from system
 
-last_name, script, user_name = argv
+script, user_name, last_name = argv
 prompt = '> '
 #create argument, string prompt.
 
-print "Hi %s, I'm the %s script." % (user_name, script)
+print "Hi %s, I'm the %s script."no
+ % (user_name, script)
 #%s means showing display. %r is for debugging to my understanding.
 print "I'd like to ask you few questions."
 print "Do you like me %s?" % user_name
