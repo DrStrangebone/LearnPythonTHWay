@@ -2,7 +2,7 @@ README FILE
 -------------------------------------------
 DrStrangebone's progress:
 
-I have done a lot since I first started June 26th. 
+I have done a lot since I first started June 26th (today is July 2nd).
 
 During that time, I had a very steady progression. I'm about to hit my ex20.py.
 
