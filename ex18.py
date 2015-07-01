@@ -1,5 +1,6 @@
 #This one is like your scripts with argv
 def print_two(*args):
+#def = define
 #args is bundled up.
 #stretch into two 1 & 2 args = args
 	arg1, arg2 = args
@@ -33,4 +34,53 @@ print_one("Hi!")
 
 print_none()
 
+def test_in_three(*nums):
+    num1, num2, num3 = nums
+    print "Num 1: %r, num2: %r, num3: %r" % (num1, num2, num3)
+#I string 3 nums into one = nums. 
+#I then print in %r  by % ().
 
+def test_in_two(num1, num2, num3):
+    print "num1: %r, num2: %r, num3: %r" % (num1, num2, num3)
+#I don't know whether to think this is more repetitive than the last or not.
+#Last one I can see it being used because it is more organised.
+#Whereas this one is a mess. Could be wrong!
+
+def test_in_one(num1):
+    print "Num1: %r" % (num1)
+#Very basic idea on what def does.
+
+def print_none():
+    print "I'm too old for this shit"
+
+test_in_three("1","2","3")
+test_in_two("1.2","2.2","3.2")
+test_in_one("Hi!")
+
+#DO NOT FORGET DOUBLE DOTS (:). WITHOUT THESE, INVALID SYNTAX. 
+#FOR GODS SAKE, YOU KEEP BLOODY FORGETTING %r. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
