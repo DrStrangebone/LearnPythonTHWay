@@ -42,3 +42,6 @@ K_9_count = 1
 doctor_who_regen = 12
 dr_who_name = ("Yes, I'm the Doctor. Doctor who. *cue Dr Who theme*")
 tardis(companions_count, K_9_count, doctor_who_regen)
+
+print "Another way: "
+
