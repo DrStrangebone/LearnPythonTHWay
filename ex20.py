@@ -12,9 +12,8 @@ def print_all(f):
 
 def rewind(f):
     f.seek(0) #seek IS A FUNCTION.
-    #Moves to new file position.qui 
+    #Moves to new file position.
 #defing rewind(f) function.
-#   no print function. f.seek(0)?
     
 def print_a_line(line_count, f):
     print line_count, f.readline()
@@ -26,7 +25,8 @@ current_file = open(input_file)
 
 print "First let's print the whole file:\n"
 #Any line ending in the input file will be seen as a '/n'.
-
+f.r
+#f.r?????
 print_all(current_file)
 #prints out open(input_file).
 
